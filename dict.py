@@ -53,10 +53,10 @@ class dictionary(): # Create dictionary class
             
 
         if self.get() is "got": # Check get() method
-            print("Get test passed")
+            print("Get test passed!")
             self.passed += 1
         else:
-            print("Get test failed")
+            print("Get test failed!")
             self.errors += 1
 
 
