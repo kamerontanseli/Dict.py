@@ -9,6 +9,7 @@ class dictionary(): # Create dictionary class
 
     def append(self, key, value): # Add/update keys in a dictionary 
        key = str(key) # Make sure key is a string
+       value = str(value) # Make sure value is a string
        if key in self.dict: # if key is in the dictionary
          self.dict[key] = value # update key
          print("['%s'] updated" % key )
@@ -19,6 +20,7 @@ class dictionary(): # Create dictionary class
          return "added"
 
     def remove(self, key): # Remove key from a dictionary 
+        key = str(key)
         if key in self.dict: 
             del self.dict[key] # delete the key
             print("Data removed")
