@@ -13,7 +13,7 @@ You can then use these methods to manipulate the dictionary:
 | ------ | ----------- |
 | append()  | Adds a new key if there is no other key of the same name that exists, otherwise it will update the key that already exists.|
 | remove() | Removes the selected key from the dictionary.|
-| get() | Retrieves the dictionary. |
+| get() | Retrieves the dictionary and prints it to console. |
 | test() | Starts a unit test for all of the methods. |
 
 ## Examples
@@ -37,8 +37,9 @@ You can then use these methods to manipulate the dictionary:
 ### get()
 ```python
  x = dictionary()
+ x.append("example", "abcd")
  x.get()
- # Result: {}
+ # Result to console: {"example", "abcd"}
 ```
 
 ### test()
